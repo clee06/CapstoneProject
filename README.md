@@ -1,2 +1,0 @@
-# CapstoneProject
-Final Group Project

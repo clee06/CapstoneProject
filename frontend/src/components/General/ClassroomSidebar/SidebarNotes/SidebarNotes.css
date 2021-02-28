@@ -1,0 +1,17 @@
+.sidebarNotes:hover > h4 {
+  color: white;
+  background-color: #404040;
+}
+
+.sidebarNotes > h4 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.sidebarNotes__hash {
+  font-size: 30px;
+  padding: 10px;
+}

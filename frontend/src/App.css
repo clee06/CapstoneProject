@@ -1,0 +1,34 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  /* background-color: #121212 !important; */
+}
+
+/* ::placeholder {
+  color: #fff !important;
+} */
+
+/* .MuiTypography-h2, .MuiTypography-h3, .MuiTypography-h4, .MuiTypography-h4 {
+  color: #fff;
+} */
+
+/* .MuiTypography-body1 {
+  color: #cbc0d3;
+} */
+
+html {
+  scroll-behavior: smooth; 
+ } 
+
+
+.link {
+  color: #2196f3 !important;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

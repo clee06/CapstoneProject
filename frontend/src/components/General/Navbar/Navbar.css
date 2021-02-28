@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar-logo {
+  max-width: 16rem;
+  justify-self: start;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.NavbarItems {
+  background-color: #59405c;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-gap: 25px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+  margin-right: 2rem;
+  max-height: 100vh;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #6d76f7;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.bar-icon,
+.close-icon {
+  color: #fff;
+}
+
+.nav-links-login,
+.nav-links-signup {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.user-profile {
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* text position */
+    height: 600px;
+    position: absolute;
+    /* background-color position */
+    top: 65px;
+    left: -100%;
+    opacity: 1;
+    /* transition: all 0.5s ease; */
+  }
+
+  .nav-menu.active {
+    background-color: #6668f4;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+
+  .nav-links {
+    text-align: center;
+    /* padding: 1.5rem; */
+    font-size: 1rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-link:hover {
+    background-color: #7577fa;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    max-width: 12rem;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    transform: translate(5%, 25%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    transform: translate(-100%, 35%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav-links-login,
+  .nav-links-signup {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color: #4ad9e4;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-login:hover,
+  .nav-links-signup:hover {
+    background-color: #fff;
+    color: #6568f4;
+    /* transition: 250ms; */
+  }
+
+  Button {
+    display: none;
+  }
+}

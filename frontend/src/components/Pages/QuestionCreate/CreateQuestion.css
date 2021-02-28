@@ -1,0 +1,145 @@
+/* Quill */
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  font-size: 1rem;
+  color: #84a59d;
+  font-style: normal;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none;
+  stroke: #fff;
+}
+
+.ql-toolbar .ql-fill {
+  fill: #fff;
+  stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+  color: #fff;
+}
+
+.ql-toolbar .ql-picker-options {
+  background-color: #121212;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
+
+/* Tags */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.header {
+  background-color: #000;
+  padding: 50px 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  padding: 40px;
+}
+
+form .tags-input {
+  margin-bottom: 15px;
+}
+
+form .tags-input.active .tags-input__wrapper {
+  border-color: #222;
+}
+
+form .tags-input label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+form .tags-input__wrapper {
+  border: 1px solid #e1e1e1;
+  padding: 15px 15px 10px;
+  border-radius: 4px;
+  -webkit-transition: border-color .3s ease;
+  transition: border-color .3s ease;
+}
+
+form .tags-input__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+form .tags-input__tags .tag {
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+form .tags-input__tags .tag i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+form .tags-input__tags .tag:hover {
+  background-color: black;
+}
+
+form .tags-input__tags input {
+  border: 0;
+  outline: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 80px;
+}
+
+form button {
+  background-color: #1df9ba;
+  color: #222;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-family: "Roboto", "sans-serif";
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+form button:hover {
+  background-color: #06dd9f;
+}
+
+form .error {
+  padding: 5px 0;
+  color: #ff5964;
+  font-size: 12px;
+}
+/*# sourceMappingURL=CreateQuestion.css.map */

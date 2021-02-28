@@ -1,0 +1,74 @@
+.sidebarRight {
+  display: flex;
+  flex-direction: column;
+  flex: 0.15;
+  height: 100vh;
+}
+
+/*  Start of Member's List Styling */
+.sidebar__memberList > h3 {
+  color: gray;
+  font-size: smaller;
+  margin-left: 5px;
+}
+
+.sidebar__memberList {
+  flex: 1;
+  padding-top: 10px;
+}
+
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 1px;
+  margin-left: 5px;
+}
+
+.sidebar__profile:hover {
+  background-color: #404040;
+  cursor: pointer;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Implement Online/Offline coloring */
+.sidebar__profileInfo > h4 {
+  color: #4fb185;
+}
+
+.sidebar__profileInfo > p {
+  font-size: x-small;
+}
+
+.sidebar__profileInfo:hover {
+  color: #fff;
+}
+
+/* Start of Chatroom CSS */
+.sidebar__chatroom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  border-top: 1px solid gray;
+}
+
+.sidebar__chatroomInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__chatroomInfo > button {
+  margin-top: 3px;
+}
+
+.sidebar__chatroomInfo > h5 {
+  display: inline-block;
+  font-size: smaller;
+}
